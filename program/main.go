@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	//deploy tugas
+	//deploy tugas SS
 	e := echo.New()
 	config.InitDb()
 	port := os.Getenv("HTTP_PORT")
